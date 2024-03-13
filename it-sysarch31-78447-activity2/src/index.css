@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+/* ClearDane */
+label.logo{
+  position:absolute;
+  font-size: 20px;
+  color: white;
+  line-height: 80px;
+  padding: 0 45px;
+}
+
+/* Navbar.css */
+nav{
+  background-image: url(https://i.pinimg.com/564x/35/9f/a8/359fa8bf9819d72ad2c10946ffe96df8.jpg);
+  height: 80px;
+}
+nav ul{
+  margin: 0 0 0 172px;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0;
+  padding: 0 12px;
+}
+
+nav a{
+  text-decoration: none;
+  color:white;
+  text-align: center;
+}
+
+p{
+  font-weight: normal;
+}
+
+a:hover {
+  color: #ff74b7;
+}
+
+
+/* Footer.css */
+footer {
+  position: fixed;
+  left: 0;
+  margin-top: 10px;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px 35px; /* Added 20px horizontal padding */
+  text-align: left; /* Aligned text to the left */
+}
+
+
+
+/* CARD.JSX CSS */
+.card-image {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  object-position: 0% 5%; /* Adjust values to change the crop position */
+  border-radius: 100%;
+  zoom: 1.3;
+}
+
+
+
+
+
+
+
