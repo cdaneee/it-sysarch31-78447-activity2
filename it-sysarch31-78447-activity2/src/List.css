@@ -1,4 +1,4 @@
-/* List.css */
+/* LIST.css */
 
 .list {
     display: flex;
@@ -13,22 +13,35 @@
     width: calc((100% / 4) - 40px); 
     justify-content: center;
     overflow: auto;
-    border: 1px solid rgb(9, 9, 14);
-    box-shadow: 0px 2px 5px rgb(0, 0, 1);
-    padding: 40px;
+    border: 2px solid rgb(30, 30, 46);
+    box-shadow: 0px 2px 5px rgb(2, 4, 7);
+    padding: 32px;
     background-color: rgb(252, 252, 252);
-    margin: 15px;
+    margin: 10.5px;
     text-align: center;
+  }
+
+
+
+  /* IMAGES CSS */
+  .card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 0% 0%; /* Adjust values to change the crop position */
+    border-radius: 100%;
+    zoom: 1.54;
   }
   
   .list .card-image {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+    margin-top: 5px;
   }
   
-  .list .card-title {
-    color: rgb(0, 0%, 20%);
-  }
+
   
+
+
 
   
   

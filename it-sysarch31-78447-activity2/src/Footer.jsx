@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer>
-            <p>&copy; {new Date().getFullYear()} <b>IT-SYSARCH31-LAB-78447 Made by Clear Dane Del Castillo</b></p>
+            <p><b>&copy; {new Date().getFullYear()} IT-SYSARCH31-LAB-78447 Made by</b> <i>Clear Dane Del Castillo</i></p>
         </footer>
     );
 }

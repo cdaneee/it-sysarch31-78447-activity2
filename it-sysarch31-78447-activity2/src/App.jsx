@@ -7,7 +7,7 @@ import Card from './Card.jsx'
 const students = [
     { id: 1, name: "Baek Yijin", email: "skawngur@gmail.com", img: "yijin"},
     { id: 2, name: "Ji Seungwan", email: "jmyoungl@gmail.com", img: "seungwan" },
-    { id: 3, name: "Na Hee-Do", email: "kimtaeri_official@gmail.com", img: "heedo"},
+    { id: 3, name: "Na Hee-Do", email: "kimtaeri_offic@gmail.com", img: "heedo"},
     { id: 4, name: "Moon Jiwoong", email: "_choiiii_@gmail.com", img: "jiwoong" },
     { id: 5, name: "Ko Yu-rim", email: "bn_95819@gmail.com", img: "yurim" }
   ];

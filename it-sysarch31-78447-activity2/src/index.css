@@ -11,21 +11,21 @@ body{
 }
 
 /* ClearDane */
-label.logo{
+.header-label{
   position:absolute;
   font-size: 20px;
   color: white;
   line-height: 80px;
-  padding: 0 45px;
+  margin-left: 40px;
 }
 
-/* Navbar.css */
+/* NAVBAR.css */
 nav{
   background-image: url(https://i.pinimg.com/564x/35/9f/a8/359fa8bf9819d72ad2c10946ffe96df8.jpg);
   height: 80px;
 }
 nav ul{
-  margin: 0 0 0 172px;
+  margin: 0 0 0 170px;
   list-style: none;
 }
 nav ul li {
@@ -50,7 +50,8 @@ a:hover {
 }
 
 
-/* Footer.css */
+
+/* FOOTER.css */
 footer {
   position: fixed;
   left: 0;
@@ -64,16 +65,6 @@ footer {
 }
 
 
-
-/* CARD.JSX CSS */
-.card-image {
-  width: 110px;
-  height: 110px;
-  object-fit: cover;
-  object-position: 0% 5%; /* Adjust values to change the crop position */
-  border-radius: 100%;
-  zoom: 1.3;
-}
 
 
 
